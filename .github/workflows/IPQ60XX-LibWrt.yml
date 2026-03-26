@@ -93,7 +93,6 @@ jobs:
 
     - name: Install Feeds(安装feeds)
       run: |
-        git clone https://github.com/laipeng668/openwrt-6.x.git
         cd $OPENWRT_PATH
         ./scripts/feeds update -a
         ./scripts/feeds install -a
