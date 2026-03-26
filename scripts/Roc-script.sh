@@ -47,6 +47,7 @@ function git_sparse_clone() {
 
 # ariang & Go & frp & Argon & Aurora & OpenList & Lucky & wechatpush & OpenAppFilter & 集客无线AC控制器 & 雅典娜LED控制
 git_sparse_clone ariang https://github.com/laipeng668/packages net/ariang
+mv -f package/golang feeds/packages/net/ariang
 git_sparse_clone master https://github.com/laipeng668/packages lang/golang
 mv -f package/golang feeds/packages/lang/golang
 git_sparse_clone frp-binary https://github.com/laipeng668/packages net/frp
